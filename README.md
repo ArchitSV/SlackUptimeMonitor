@@ -21,13 +21,13 @@ $tail -f /root/uptimenotifier.log
 
 Note that the script is written in Python3.5.
 
-### Step 2 -  Setup the config variables
+### Step 2 -  Setup the configuration variables
 
 
 URLS_TO_CHECK = ["http://facebook.com",
                  "https://youtube.com:9540"]
 
-#### You have to have a token so you can send messages to a slack channel! Get one here
+#### You have to have a token so that you can send messages to a slack channel! Get one here
 https://api.slack.com/docs/oauth-test-tokens
 
 You need then to export it as an environmental variable or hardcoded
